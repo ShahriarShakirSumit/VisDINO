@@ -1,0 +1,23 @@
+VisDINO
+Copyright (c) 2026 Shahriar Shakir Sumit, Murat Tahtali and Seyedali Mirjalili
+
+This repository is released under the MIT License (see LICENSE).
+
+Parts of the following files are derived from detrex
+(https://github.com/IDEA-Research/detrex), Copyright 2022 The IDEA Authors,
+licensed under the Apache License, Version 2.0:
+
+  modeling/visdino.py
+  modeling/visdino_transformer.py
+  modeling/visdino_criterion.py
+  modeling/ogs_attention.py
+
+modeling/ogs_attention.py additionally contains code from Deformable DETR
+(https://github.com/fundamentalvision/Deformable-DETR), Copyright (c) 2020
+SenseTime, licensed under the Apache License, Version 2.0, and from mmcv
+(https://github.com/open-mmlab/mmcv).
+
+These portions remain under the Apache License, Version 2.0, a copy of which is
+provided in LICENSE-APACHE. The original copyright notices are retained at the
+top of each of these files, followed by a notice stating that the file was
+modified.
