@@ -146,6 +146,26 @@ copyright notices are kept in those files, and NOTICE and LICENSE-APACHE give th
 }
 ```
 
+This code builds on detrex and detectron2. If you use it, please also cite them:
+
+```bibtex
+@misc{ren2023detrex,
+  title         = {detrex: Benchmarking Detection Transformers},
+  author        = {Tianhe Ren and Shilong Liu and Feng Li and Hao Zhang and Ailing Zeng and Jie Yang and Xingyu Liao and Ding Jia and Hongyang Li and He Cao and Jianan Wang and Zhaoyang Zeng and Xianbiao Qi and Yuhui Yuan and Jianwei Yang and Lei Zhang},
+  year          = {2023},
+  eprint        = {2306.07265},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV}
+}
+
+@misc{wu2019detectron2,
+  author       = {Yuxin Wu and Alexander Kirillov and Francisco Massa and Wan-Yen Lo and Ross Girshick},
+  title        = {Detectron2},
+  howpublished = {\url{https://github.com/facebookresearch/detectron2}},
+  year         = {2019}
+}
+```
+
 ## Contact
 
 For questions or problems, please open a GitHub issue or contact Shahriar Shakir Sumit
